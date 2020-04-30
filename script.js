@@ -34,7 +34,7 @@ function show_GIFs(){
     }
 };
 
-    req.open('GET', 'http://api.giphy.com/v1/gifs/search?q='+q+'&api_key='+api_key+'&limit=12&offset='+offset+'&rating=G&lang='+lang, true); 
+    req.open('GET', 'https://api.giphy.com/v1/gifs/search?q='+q+'&api_key='+api_key+'&limit=12&offset='+offset+'&rating=G&lang='+lang, true); 
     req.send();
 
 }
